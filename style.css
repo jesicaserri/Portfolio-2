@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Customization */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Header Section */
+header {
+  padding: 60px 0;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #212529;
+}
+
+/* About Section */
+#about {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+/* Skills Section */
+#skills {
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-list li {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+/* Projects Section */
+#projects {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.project-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e2e6ea;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: #ffffff;
+}
